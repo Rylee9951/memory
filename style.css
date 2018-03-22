@@ -2,9 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+*,*::before,*::after {
   box-sizing: inherit;
 }
 
@@ -36,9 +34,7 @@ h1 {
 ul {
 	list-style: none;
 }
-/*
- * Styles for the deck of cards
- */
+ 
 
 
 .deck {
@@ -107,9 +103,7 @@ ul {
 }
 
 
-/*
- * Styles for the Score Panel
- */
+
 
 
 .score-panel {
@@ -144,9 +138,6 @@ ul {
 }
 
 
-/*
- * Styles for congratulations modal
- */
 
 
 .overlay {
@@ -226,7 +217,6 @@ ul {
   border-radius: 5px;
 }
 
-/* animations */
 @keyframes flipInY {
   from {
     transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
@@ -298,8 +288,6 @@ ul {
 }
 
 
-/****** Media queries
-***************************/
 
 
 @media (max-width: 320px) {
@@ -314,8 +302,6 @@ ul {
 }
 
 
-/* For Tablets and larger screens
-****************/
 
 @media (min-width: 768px) {
   .container {
